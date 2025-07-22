@@ -1,0 +1,93 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2978,         83]
+NotebookOptionsPosition[      2189,         61]
+NotebookOutlinePosition[      2593,         77]
+CellTagsIndexPosition[      2550,         74]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"BeginPackage", "[", "\"\<FusionRules\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.962190837274042*^9, 3.9621908426771812`*^9}, {
+  3.9621908736617875`*^9, 
+  3.962190875599487*^9}},ExpressionUUID->"bd240998-ee78-4ebb-a5e9-\
+49951e2a366a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"CommutativeQ", "::", " ", "usage"}], " ", "=", " ", 
+  "\"\<CommutativeQ[x] is True if x is commutative (the defaut), and False if \
+x is non-commutative. \>\""}]], "Input",
+ CellChangeTimes->{{3.962190906107749*^9, 3.962190996925552*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"51019405-980f-499a-98d7-8a75f96f36fa"],
+
+Cell[BoxData["\<\"CommutativeQ[x] is True if x is commutative (the defaut), \
+and False if x is non-commutative. \"\>"], "Output",
+ CellChangeTimes->{3.962191005441637*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"19a5441c-0b7b-4ea4-8c2b-b0d274b0fdd1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"SetNonCommutative", "::", " ", "usage"}], " ", "=", " ", 
+   "\"\<SetNonCommutative[a, b, c, ...] sets the symbols a, b, c, ... to be \
+non-commutative.\>\""}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.96219103008095*^9, 3.9621910322807484`*^9}, {
+  3.9621910938740005`*^9, 3.962191156268484*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"38960960-4f0c-4cd2-b326-02eab07e27d4"],
+
+Cell[BoxData["\<\"SetNonCommutative[a, b, c, ...] sets the symbols a, b, c, \
+... to be non-commutative.\"\>"], "Output",
+ CellChangeTimes->{3.962191158311917*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"1b4bdd0e-a259-4828-ba1f-7a4585e5b551"]
+}, Open  ]]
+},
+WindowSize->{1141.2, 579.6},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b57f83cd-0c10-447d-9aba-bbaf3757a525"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 262, 5, 43, "Input",ExpressionUUID->"bd240998-ee78-4ebb-a5e9-49951e2a366a"],
+Cell[CellGroupData[{
+Cell[845, 29, 353, 6, 28, "Input",ExpressionUUID->"51019405-980f-499a-98d7-8a75f96f36fa"],
+Cell[1201, 37, 251, 3, 32, "Output",ExpressionUUID->"19a5441c-0b7b-4ea4-8c2b-b0d274b0fdd1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1489, 45, 439, 8, 48, "Input",ExpressionUUID->"38960960-4f0c-4cd2-b326-02eab07e27d4"],
+Cell[1931, 55, 242, 3, 32, "Output",ExpressionUUID->"1b4bdd0e-a259-4828-ba1f-7a4585e5b551"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
